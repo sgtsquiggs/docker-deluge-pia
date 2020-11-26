@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv bash
+
+pushd /opt/piavpn || exit
+exec /opt/piavpn/up.sh
